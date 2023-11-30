@@ -10,7 +10,9 @@ function MyApp({ Component, pageProps }: AppProps) {
     typeof document !== undefined ? require('bootstrap/dist/js/bootstrap') : null
   }, [])
 
-  return <Component {...pageProps} />
+  return <>
+    <Component {...pageProps} />
+  </>
 }
 
 export default MyApp
