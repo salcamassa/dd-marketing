@@ -30,8 +30,8 @@ const ToggleSection = ({
           ''
         ) : (
           <ul>
-            {content.map((c) => (
-              <li>{c}</li>
+            {content.map((c, index) => (
+              <li key={index}>{c}</li>
             ))}
           </ul>
         )}

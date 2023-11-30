@@ -35,6 +35,7 @@ const FaqSection = () => {
           </div>
           {faqData.map((data, index) => (
             <ToggleSection
+              key={index}
               title={data.title}
               content={data.content}
               showSubtitle={index === 2}
