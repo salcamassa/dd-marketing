@@ -60,7 +60,7 @@ const RewardsFeatures = () => {
       </div>
       <div className={` row text-center gx-5 mt-5`}>
         <div className={` col-12  `}>
-          <button className="btn btn-secondary">Start Earning Rewards</button>
+          <button className="btn btn-outline-light">Start Earning Rewards</button>
         </div>
       </div>
     </div>

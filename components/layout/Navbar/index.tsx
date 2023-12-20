@@ -5,7 +5,7 @@ import logo from '/public/dd-logo.svg'
 import styles from "./navbar.module.scss";
 
 const navData = [
-  { linkText: "Features", href: '#' },
+  { linkText: "Features", href: '#features' },
   { linkText: "Partners", href: '#' },
   { linkText: "Blog", href: '#' },
 

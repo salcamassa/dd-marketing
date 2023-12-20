@@ -6,6 +6,7 @@ import HeroSection from "../components/HeroSection";
 import RewardsFeatures from "../components/RewardsFeatures";
 import Footer from "../components/layout/Footer";
 import Navbar from "../components/layout/Navbar";
+import PayoffChart from "../components/PayoffChart";
 
 
 const Home: NextPage = () => {
@@ -26,11 +27,16 @@ const Home: NextPage = () => {
         <HeroSection />
       </div>
       <FeatureSquares />
-      <div className="dd-gradient-bg">
+      <div className="dd-gradient-bg" id="features">
         <RewardsFeatures />
-        <FaqSection />
       </div>
-      <Footer />
+      <div className="dd-gradient-bg2">
+        <PayoffChart />
+      </div>
+      <div className="dd-gradient-bg">
+        <FaqSection />
+        <Footer />
+      </div>
     </div>
   );
 };

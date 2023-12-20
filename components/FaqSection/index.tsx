@@ -25,7 +25,7 @@ const faqData = [
 const FaqSection = () => {
   return (
     <>
-      <div className={` container mt-5`}>
+      <div className={` container py-5`}>
         <div className={styles.sectionContainer}>
           <div className={`border-bottom text-center p-3`}>
             <div className={styles.infoText}>
