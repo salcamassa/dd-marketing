@@ -30,7 +30,7 @@ const FaqSection = () => {
           <div className={`border-bottom text-center p-3`}>
             <div className={styles.infoText}>
               Don’t see your question listed? <br />
-              Reach out to us: <a className="link-primary">support@debduciton.com</a>
+              Reach out to us: <a className="link-primary">support@debtduction.com</a>
             </div>
           </div>
           {faqData.map((data, index) => (
